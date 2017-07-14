@@ -2,6 +2,8 @@
 #include<cstring>
 using namespace std;
 
+//type1
+
 string s0,s1,st;
 char ts[26];
 

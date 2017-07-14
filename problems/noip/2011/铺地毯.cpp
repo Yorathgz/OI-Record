@@ -18,6 +18,7 @@ inline void write(int x)
 } 
 
 /*************************************************************/
+//type1
 
 struct data{
 	int a,b,g,k;

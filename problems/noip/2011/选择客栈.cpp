@@ -18,7 +18,7 @@ inline void write(int x)
 } 
 
 /*************************************************************/
-
+//type1
 //from: http://www.cnblogs.com/lidaxin/p/4859338.html
 
 int n,k,p;
@@ -33,11 +33,11 @@ int main()
 	for(int i=1;i<=n;i++)
 	{
 		kk=read();cc=read(); 
-		a[kk]++;//ά��a
+		a[kk]++;
 		if(cc<=p)
 		{
 			for(int j=0;j<50;j++) b[j]=a[j];
-			sum=sum+b[kk]-1;//��ȥ�Լ� 
+			sum=sum+b[kk]-1;
 		}
 		else sum=sum+b[kk]; 
 	}
